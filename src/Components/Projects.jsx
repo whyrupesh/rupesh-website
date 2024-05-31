@@ -3,7 +3,9 @@ import React from "react";
 export default function Projects() {
   return (
     <>
-      <div className="text-3xl pt-5 pl-5">Projects</div>
+      <div className="text-3xl pt-5 pl-5 underline  decoration-blue-500">
+        Projects
+      </div>
 
       <div className="flex flex-col items-center">
         <a href="https://github.com/whyrupesh/SecondHand-website">

@@ -18,7 +18,7 @@ export default function () {
   return (
     <>
       <div className="p-5">
-        <h1 className="text-3xl underline text-white">About me</h1>
+        <h1 className="text-3xl underline  decoration-blue-500">About me</h1>
 
         <div>2nd Year CSE Student</div>
         <div>at Vellore Institute of Technology, Chennai</div>

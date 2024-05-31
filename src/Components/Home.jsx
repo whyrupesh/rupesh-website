@@ -6,20 +6,23 @@ import Footer from "./Footer";
 export default function Home() {
   return (
     <>
-      <div className="ml-8">
-        <div className="text-2xl">Hi there!</div>
-        <div className="flex align-center items-center">
+      <div className="home-container ml-8 flex flex-col	md:flex-row  md:items-center	">
+        <div className="w-auto">
+          <div className="text-2xl">Hi there!</div>
+          <div className="flex align-center items-center">
+            <div className="text-2xl">
+              This is <span className=" text-blue-500">Rupesh.</span>{" "}
+            </div>
+          </div>
+
           <div className="text-2xl">
-            This is <span className=" text-blue-500">Rupesh.</span>{" "}
+            Sometimes I<span id="changingText"></span>
           </div>
         </div>
 
-        <div className="text-2xl">
-          Sometimes I<span id="changingText"></span>
-        </div>
+        <img className="md:w-2/5" src="whyrupesh.png" alt="" />
       </div>
 
-      <img src="whyrupesh.png" alt="" />
       <About />
       <Projects />
       <Footer />

@@ -34,7 +34,6 @@ export default function Skill() {
         </div>
         <div className="border-2 flex items-center space-x-2 w-fit p-2 rounded-lg m-2	">
           <FaCss3Alt />
-
           <div>CSS</div>
         </div>
         <div className="border-2 flex items-center space-x-2 w-fit p-2 rounded-lg m-2	">
