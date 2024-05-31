@@ -7,7 +7,7 @@ import Skill from "./Skill";
 
 export default function () {
   const onButtonClick = () => {
-    const pdfUrl = "Rupesh Resume.pdf";
+    const pdfUrl = "resources/Rupesh Resume.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "Rupesh Resume.pdf"; // specify the filename

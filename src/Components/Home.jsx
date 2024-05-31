@@ -20,7 +20,11 @@ export default function Home() {
           </div>
         </div>
 
-        <img className="md:w-2/5" src="whyrupesh.png" alt="" />
+        <img
+          className="md:w-2/5 md:ml-auto"
+          src="resources\whyrupesh.png"
+          alt=""
+        />
       </div>
 
       <About />

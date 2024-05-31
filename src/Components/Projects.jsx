@@ -11,7 +11,7 @@ export default function Projects() {
         <a href="https://github.com/whyrupesh/SecondHand-website">
           <div className="border-2 w-3/4 m-5">
             <div className="p-5">
-              <img src="secondhand.jpeg" alt="" />
+              <img src="resources/secondhand.jpeg" alt="" />
               <div className="pt-2">
                 <div className="text-2xl">SecondHand</div>
                 <div>Buy and Sell Old Products.</div>
@@ -22,7 +22,7 @@ export default function Projects() {
         <a href="https://github.com/whyrupesh/">
           <div className="border-2 w-3/4 m-5">
             <div className="p-5">
-              <img className="border-2" src="site.png" alt="" />
+              <img className="border-2" src="resources/site.png" alt="" />
               <div className="pt-2">
                 <div className="text-2xl">whyrupesh</div>
                 <div>Personal Website</div>

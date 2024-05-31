@@ -12,7 +12,10 @@ export default function Navbar() {
 
   return (
     <div className="flex justify-between p-5 items-center	">
-      <h1 className="font-semibold w-4/5 text-2xl">whyrupesh</h1>
+      <Link to="/">
+        <h1 className="font-semibold w-4/5 text-2xl">whyrupesh</h1>
+      </Link>
+
       <div className="menu-icon hidden" onClick={handleShowNavbar}>
         <FaBars className="h-6 w-6" />
       </div>
