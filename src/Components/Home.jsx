@@ -16,7 +16,7 @@ export default function Home() {
           </div>
 
           <div className="text-2xl">
-            Sometimes I<span id="changingText"></span>
+            I like to<span id="changingText"></span>
           </div>
         </div>
 

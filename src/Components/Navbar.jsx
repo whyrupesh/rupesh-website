@@ -16,7 +16,7 @@ export default function Navbar() {
         <h1 className="font-semibold w-4/5 text-2xl">whyrupesh</h1>
       </Link>
 
-      <div className="menu-icon hidden" onClick={handleShowNavbar}>
+      <div className="menu-icon hidden ml-auto" onClick={handleShowNavbar}>
         <FaBars className="h-6 w-6" />
       </div>
       <nav className="">

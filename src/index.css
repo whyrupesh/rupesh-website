@@ -21,15 +21,15 @@ body {
     content: "Code";
   }
   25% {
-    content: "Edit";
+    content: "Edit Videos";
   }
 
   50% {
-    content: "Sleep";
+    content: "Gym";
   }
 
   75% {
-    content: "Gym";
+    content: "Sleep";
   }
 }
 
