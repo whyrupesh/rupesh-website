@@ -22,8 +22,8 @@ export default function Home() {
 
         <img
           className="md:w-2/5 md:ml-auto"
-          src="/public/static/images/whyrupesh.png"
-          alt=""
+          src="./public/static/images/whyrupesh.png"
+          alt="rupesh-img"
         />
       </div>
 
