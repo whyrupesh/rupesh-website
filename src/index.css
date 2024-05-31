@@ -1,0 +1,77 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(23, 22, 22);
+  color: white;
+  width: 90%; /* Set the width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+#changingText::before {
+  content: "Code";
+  animation: animate infinite 4s;
+  padding-left: 10px;
+}
+
+@keyframes animate {
+  0% {
+    content: "Code";
+  }
+  25% {
+    content: "Edit";
+  }
+
+  50% {
+    content: "Sleep";
+  }
+
+  75% {
+    content: "Gym";
+  }
+}
+
+/* responsive navbar */
+@media (max-width: 768px) {
+  .nav-elements ul li:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-elements {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    width: 0px;
+    height: calc(100vh - 60px);
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  .nav-elements.active {
+    width: 270px;
+  }
+
+  .nav-elements ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-elements ul li {
+    margin-left: 40px;
+    padding: 5px;
+  }
+}
+
+/* for desktop */
+
+/* footer */
