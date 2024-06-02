@@ -11,12 +11,12 @@ export default function Home() {
           <div className="text-2xl">Hi there!</div>
           <div className="flex align-center items-center">
             <div className="text-2xl">
-              This is <span className=" text-blue-500">Rupesh.</span>{" "}
+              I'm <span className=" text-blue-500">Rupesh.</span>{" "}
             </div>
           </div>
 
           <div className="text-2xl">
-            I like to<span id="changingText"></span>
+            I enjoy<span id="changingText"></span>
           </div>
         </div>
 

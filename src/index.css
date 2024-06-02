@@ -11,25 +11,25 @@ body {
 }
 
 #changingText::before {
-  content: "Code";
-  animation: animate infinite 4s;
+  content: "coding bugs 👨‍💻";
+  animation: animate infinite 8s;
   padding-left: 10px;
 }
 
 @keyframes animate {
   0% {
-    content: "Code";
+    content: "coding bugs 👨‍💻";
   }
   25% {
-    content: "Edit Videos";
+    content: "editing videos 🎥";
   }
 
   50% {
-    content: "Gym";
+    content: "lifting weights 💪";
   }
 
   75% {
-    content: "Sleep";
+    content: "sleeping in b/w 😴";
   }
 }
 
