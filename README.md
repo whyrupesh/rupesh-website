@@ -1,3 +1,3 @@
 #Personal Porfolio Website
 
-[whyrupesh.tech](whyrupesh.tech)
+[whyrupesh.tech](https://whyrupesh.tech/)
