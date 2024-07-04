@@ -14,7 +14,7 @@ export default function Home() {
               I'm <span className=" text-blue-500">Rupesh,</span>{" "}
             </div>
           </div>
-          <div className="text-2xl">A Full-stack developer. </div>
+          <div className="text-2xl">Full-stack developer. </div>
 
           <div className="text-2xl">
             I enjoy<span id="changingText"></span>
