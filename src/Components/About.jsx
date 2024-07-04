@@ -7,7 +7,7 @@ import Skill from "./Skill";
 
 export default function () {
   const onButtonClick = () => {
-    const pdfUrl = "/static/Rupesh_Resume.pdf";
+    const pdfUrl = "/static/Rupesh Resume.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "Rupesh Resume.pdf"; // specify the filename
@@ -20,7 +20,7 @@ export default function () {
       <div className="p-5">
         <h1 className="text-3xl underline  decoration-blue-500">About me</h1>
 
-        <div>2nd Year CSE Student</div>
+        <div>3rd Year CSE Student</div>
         <div>at Vellore Institute of Technology, Chennai</div>
         <div className="flex space-x-4 pt-3">
           <a href="https://www.linkedin.com/in/whyrupesh/">

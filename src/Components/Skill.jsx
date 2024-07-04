@@ -6,6 +6,9 @@ import { FaPython } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
 
 export default function Skill() {
   return (
@@ -20,6 +23,19 @@ export default function Skill() {
           <FaReact />
           <div>React</div>
         </div>
+        <div className="border-2 flex items-center space-x-2 w-fit p-2 rounded-lg	m-2">
+          <FaNodeJs />
+          <div>NodeJs</div>
+        </div>
+        <div className="border-2 flex items-center space-x-2 w-fit p-2 rounded-lg	m-2">
+          <SiExpress />
+          <div>ExpressJs</div>
+        </div>
+        <div className="border-2 flex items-center space-x-2 w-fit p-2 rounded-lg	m-2">
+          <SiMongodb />
+          <div>MongoDB</div>
+        </div>
+
         <div className="border-2 flex items-center space-x-2 w-fit p-2 rounded-lg	m-2">
           <TbBrandCpp />
           <div>C++</div>
