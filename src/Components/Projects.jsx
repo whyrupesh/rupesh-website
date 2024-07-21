@@ -24,9 +24,9 @@ export default function Projects() {
         />
 
         <ProjectCards
-          url={"whyrupesh.tech"}
+          url={"https://whyrupesh.tech/"}
           img={"/static/images/whyrupesh.png"}
-          name={"whyrupesh.tech"}
+          name={"whyrupesh"}
           description={"Personal Website"}
         />
       </div>
