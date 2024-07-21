@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectCards from "./ProjectCards";
 
 export default function Projects() {
   return (
@@ -8,28 +9,26 @@ export default function Projects() {
       </div>
 
       <div className="flex flex-col items-center">
-        <a href="https://github.com/whyrupesh/SecondHand-website">
-          <div className="border-2 w-3/4 m-5">
-            <div className="p-5">
-              <img src="/static/images/secondhand.jpeg" alt="" />
-              <div className="pt-2">
-                <div className="text-2xl">SecondHand</div>
-                <div>Buy and Sell Old Products.</div>
-              </div>
-            </div>
-          </div>
-        </a>
-        <a href="https://github.com/whyrupesh/">
-          <div className="border-2 w-3/4 m-5">
-            <div className="p-5">
-              <img className="border-2" src="/static/images/site.png" alt="" />
-              <div className="pt-2">
-                <div className="text-2xl">whyrupesh</div>
-                <div>Personal Website</div>
-              </div>
-            </div>
-          </div>
-        </a>
+        <ProjectCards
+          url={"https://github.com/whyrupesh/SecondHand-website"}
+          img={"/static/images/secondhand.jpeg"}
+          name={"SecondHand"}
+          description={"Buy and Sell Old Products."}
+        />
+
+        <ProjectCards
+          url={"https://qr-code-generator-whyrupesh.vercel.app/"}
+          img={"/static/images/qr.png"}
+          name={"QR Code Generator"}
+          description={"Generate a QR code of any URL/Text."}
+        />
+
+        <ProjectCards
+          url={"whyrupesh.tech"}
+          img={"/static/images/whyrupesh.png"}
+          name={"whyrupesh.tech"}
+          description={"Personal Website"}
+        />
       </div>
     </>
   );
