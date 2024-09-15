@@ -11,7 +11,7 @@ body {
 }
 
 #changingText::before {
-  content: "Building Softwares 👨‍💻";
+  content: "Building Websites 👨‍💻";
   animation: animate infinite 8s;
   padding-left: 10px;
 }
