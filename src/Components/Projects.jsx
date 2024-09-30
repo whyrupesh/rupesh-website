@@ -24,6 +24,13 @@ export default function Projects() {
         />
 
         <ProjectCards
+          url={"https://comparecode.vercel.app/"}
+          img={"/static/images/comparecode.png"}
+          name={"CompareCode"}
+          description={"Compare GitHub Commits and LeetCode Submission"}
+        />
+
+        <ProjectCards
           url={"https://whyrupesh.tech/"}
           img={"/static/images/whyrupesh.png"}
           name={"whyrupesh"}
